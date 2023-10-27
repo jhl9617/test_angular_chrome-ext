@@ -1,0 +1,25 @@
+/* app.css */
+html,
+body {
+  --app-height: 380px;
+  --app-width: 600px;
+  background: rgb(65, 61, 61);
+  width: var(--app-width);
+  height: var(--app-height);
+  border: 1px solid white;
+}
+
+.App {
+  width: var(--app-width);
+  height: var(--app-height);
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.App > div {
+  margin-left: 1rem;
+}
+.App label {
+  margin-left: 0.5rem;
+}
